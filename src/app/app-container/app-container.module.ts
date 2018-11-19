@@ -4,7 +4,7 @@ import { CommonModule } from '@angular/common';
 import {
   MatListModule,
   MatIconModule,
-  MatButtonModule
+  MatButtonModule,
 } from '@angular/material';
 import { CovalentLayoutModule } from '@covalent/core/layout';
 
@@ -20,7 +20,7 @@ const COVALENT_MODULES = [CovalentLayoutModule];
     CommonModule,
     AppContainerRoutingModule,
     ANGULAR_MODULES,
-    COVALENT_MODULES
-  ]
+    COVALENT_MODULES,
+  ],
 })
 export class AppContainerModule {}
